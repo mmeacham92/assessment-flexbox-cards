@@ -1,12 +1,21 @@
 .cardContainer {
+
   /* display */
+  display: flex;
+
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   overflow: hidden;
 }
 
 .card {
+
   /* display, flex-direction, flex-grow, flex-basis */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  flex-grow: 1;
+
   border: 1px solid #CAD0D2;
   border-radius: 4px;
   border: none;
@@ -16,7 +25,14 @@
 }
 
 .cardDescription {
+
   /* display, flex-direction, align-items, flex-grow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+
   padding: 15px 0;
 }
 
